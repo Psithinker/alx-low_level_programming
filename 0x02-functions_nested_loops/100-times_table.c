@@ -8,7 +8,7 @@ void print(int var)
 {
 	if (var / 10)
 		print(var / 10);
-	_putchar('0' + (var % 10);
+	_putchar('0' + (var % 10));
 }
 /**
  * print_times_table - prints the n times table, starting with 0
@@ -37,7 +37,7 @@ void print_times_table(int n)
 			else if (mu1 < 100)
 			{
 				_putchar(' ');
-				print(mu1)
+				print(mu1);
 			}
 			else
 			{
