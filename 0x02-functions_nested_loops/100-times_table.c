@@ -17,7 +17,7 @@ void print(int var)
 
 void print_times_table(int n)
 {
-	int ii, jj, mu1;
+	int ii, jj, mul;
 
 	if (n < 0 || n > 15)
 		return;
@@ -25,23 +25,23 @@ void print_times_table(int n)
 	{
 		for (jj = 0; jj <= n; jj++)
 		{
-			mu1 = ii * jj;
+			mul = ii * jj;
 			if (jj == 0)
-				_putchar('0' + mu1);
-			else if (mu1 < 10)
+				_putchar('0' + mul);
+			else if (mul < 10)
 			{
 				_putchar(' ');
 				_putchar(' ');
-				_putchar('0' + mu1);
+				_putchar('0' + mul);
 			}
-			else if (mu1 < 100)
+			else if (mul < 100)
 			{
 				_putchar(' ');
-				print(mu1);
+				print(mul);
 			}
 			else
 			{
-				print(mu1);
+				print(mul);
 			}
 			if (jj < n)
 			{
