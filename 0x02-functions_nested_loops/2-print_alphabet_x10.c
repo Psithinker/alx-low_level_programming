@@ -5,7 +5,6 @@
  *
  * Return: void
  */
-
 void print_alphabet_x10(void)
 {
 	int ii = 0;
@@ -16,7 +15,7 @@ void print_alphabet_x10(void)
 
 	for (jj = 'a'; jj <= 'z'; jj++)
 		_putchar(jj);
-	_putchar('\n')
+	_putchar('\n');
 
 	ii++;
 	}
