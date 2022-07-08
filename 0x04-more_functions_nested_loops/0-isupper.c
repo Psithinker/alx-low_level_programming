@@ -8,7 +8,7 @@
  * Return: 1 if is uppercase, 0 if otherwise
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (isupper(c))
 		return (1);
