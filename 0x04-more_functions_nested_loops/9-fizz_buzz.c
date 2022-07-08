@@ -14,7 +14,7 @@
 
 int main(void)
 {
-	int ii;
+	int ii = 1;
 
 	do {
 		if ((ii % 3 == 0) && (ii % 5 == 0))
