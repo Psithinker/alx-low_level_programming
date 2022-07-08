@@ -23,7 +23,7 @@ void print(int var)
 
 void more_numbers(void)
 {
-	int jj = 0
+	int jj = 0;
 
 	while (jj < 10)
 	{
