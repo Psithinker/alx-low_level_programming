@@ -27,7 +27,7 @@ int main(void)
 			printf("%d", ii);
 		if (ii != stopVar)
 			printf(" ");
-		ii++
+		ii++;
 	} while (ii < stopVar + 1);
 	printf("\n");
 
