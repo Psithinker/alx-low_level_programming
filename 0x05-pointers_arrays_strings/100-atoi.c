@@ -8,7 +8,7 @@
 
 int _atoi(char *s)
 {
-	int sign = 1, resp = 0, i = 0;
+	int sign = 1, resp = 0, i = 0, firstNum;
 
 	for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
 	{
@@ -18,7 +18,7 @@ int _atoi(char *s)
 		}
 	}
 
-	for (int i = 0; s[i] >= 48 && s[i] <= 57; i++)
+	for (int i = firstNum; s[i] >= 48 && s[i] <= 57; i++)
 	{
 		resp *= 10;
 		resp += (s[i] - 48);
