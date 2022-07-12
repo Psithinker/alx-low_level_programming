@@ -10,9 +10,9 @@ int _atoi(char *s)
 {
 	int sign = 1, resp = 0, i = 0, firstNum;
 
-	for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
+	for (i = 0; !(s[i] >= 48 && s[i] <= 57); i++)
 	{
-		if (s[firstNum] == '-')
+		if (s[i] == '-')
 		{
 			sign *= -1;
 		}
