@@ -25,7 +25,7 @@ int main(void)
 		if  (randValue > asciiStart)
 		{
 			password[i++] = randValue;
-			num += randVAlue;
+			num += randValue;
 		}
 	}
 
