@@ -2,7 +2,7 @@
 
 /**
  * free_listint - frees a listint_t list
- * head: head of linked list
+ * @head: head of linked list
  */
 
 void free_listint(listint_t *head)
